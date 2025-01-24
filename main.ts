@@ -11,4 +11,15 @@ basic.forever(function () {
     } else {
         basic.clearScreen()
     }
+    if (input.buttonIsPressed(Button.A)) {
+    	
+    } else if (input.buttonIsPressed(Button.B)) {
+    	
+    } else if (input.logoIsPressed()) {
+    	
+    } else if (input.isGesture(Gesture.Shake)) {
+    	
+    } else {
+        basic.clearScreen()
+    }
 })
